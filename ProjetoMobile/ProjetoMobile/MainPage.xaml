@@ -16,8 +16,8 @@
         <Entry x:Name="entryNome"
                    Placeholder="Nome do usuario"
                    HorizontalTextAlignment="Center"
-                   Margin="10,100,0,0"
-                   />
+                   Margin="10,100,0,0"/>
+        
         <Entry x:Name="entrySenha"
                    Placeholder="Dígite a Senha"
                    IsPassword="True"
@@ -33,7 +33,8 @@
                     x:Name="buttonLogar"
                     BorderRadius="25"
                     Clicked="ButtonLogar_Clicked"/>
-            </StackLayout>
+            
+        </StackLayout>
         
         <Button Text="Criar conta"
                     HorizontalOptions="FillAndExpand"
