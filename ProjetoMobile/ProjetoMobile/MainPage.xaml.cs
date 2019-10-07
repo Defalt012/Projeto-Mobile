@@ -16,12 +16,24 @@ namespace ProjetoMobile
 
         private void ButtonCriarConta_Clicked(object sender, EventArgs e)
         {
-
+            
         }
 
         private void ButtonLogar_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                string sql = String.Format($"SELECT COUNT(*) from Login where email = '{0}' and senha = '{1}'", entryNome.Text, entrySenha.Text);
+                ((App)Application.Current).Conexao.Execute(sql);
+                DisplayAlert("SUCESSO", "Item inserido", "OK");
 
+            }
+            catch
+            {
+
+            }
+
+            
         }
     }
 }
