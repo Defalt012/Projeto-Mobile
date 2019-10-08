@@ -10,7 +10,7 @@
            
             <Label Text="Conta"
              HorizontalOptions="Center"
-             Margin="5,0,5,0"
+             Margin="5,40,5,0"
              FontSize="20"
              TextColor="#EED218"/>
 
